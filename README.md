@@ -6,3 +6,5 @@ GEO files used in sample.R should be downloaded from https://www.ncbi.nlm.nih.go
 
 Execute sample.R in order get to get gene list available at Additional file 1 (https://doi.org/10.1186/s12859-018-2068-7)
 (It also requires to execute externally several bacth files, R11.bat to R27.bat, during execution. See sample.R for more details)
+
+R version 3.4.2 (2017-09-28) -- "Short Summer" : This R code seems to be valid in this version. No other version might not be supported.
