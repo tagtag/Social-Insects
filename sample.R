@@ -1,7 +1,7 @@
 #Dqua methyl by pca
 x1 <- read.csv("GSM1438857_Dqua_Synthetic_CX.txt.gz",sep="\t",header=F)
 save(file="x1_Dqua_S",x1)
-x1 <- read.csv("GSM1438859_Dqua1AQ_CX.txt.gz",sep="\t",header=F)
+x1 <- read.csv("GSM1438858_Dqua1AQ_CX.txt.gz",sep="\t",header=F)
 save(file="x1_Dqua1AQ",x1)
 x1 <- read.csv("GSM1438859_Dqua2AQ_CX.txt.gz",sep="\t",header=F)
 save(file="x1_Dqua2AQ",x1)
@@ -20,7 +20,7 @@ save(file="x1_Dqua3DW",x1)
 #nohup R --slave --vanilla < R23.bat > nohup23.out &
 #nohup R --slave --vanilla < R24.bat > nohup24.out &
 #nohup R --slave --vanilla < R25.bat > nohup25.out &
-#nohup R --slave --vanilla < R46.bat > nohup26.out &
+#nohup R --slave --vanilla < R26.bat > nohup26.out &
 #nohup R --slave --vanilla < R27.bat > nohup27.out &
 
 
